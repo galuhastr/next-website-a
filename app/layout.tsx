@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 
 export const metadata: Metadata = {
-  title: 'Jasa Travel',
+  title: 'TripLink',
   description: 'Portal Jasa Travel Terus Maju',
 }
 
