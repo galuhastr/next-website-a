@@ -78,7 +78,7 @@ const Tour = () => {
             <strong>Feeling Lost</strong> And Not Knowing The Way?
           </h2>
           <p className='regular-14 xl:regular-16 mt-5 text-white'>
-          Starting from the anxiety of the routers when visiting a new location,
+          Starting from the anxiety of the routes when visiting a new location,
           the possibility of getting lost is very large.
           That's why we are here for those of you who want to start an adventure
           </p>
