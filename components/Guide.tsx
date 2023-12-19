@@ -34,7 +34,10 @@ const Guide = () => {
         rounded-3xl border shadow-md md:left-[5%] lg:top-20'>
           <div className='flexetween flex-col'>
             <div className='flex w-full flex-col'>
-
+              <div className='fleBetween w-full'>
+                <p>Destination</p>
+                <p>30 Min</p>
+              </div>
             </div>
           </div>
         </div>
