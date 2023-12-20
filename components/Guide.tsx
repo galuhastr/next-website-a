@@ -32,12 +32,26 @@ const Guide = () => {
 
         <div className='absolute flex bg-white py-8 pl-5 pr-7 gap-3
         rounded-3xl border shadow-md md:left-[5%] lg:top-20'>
+          <Image
+          src='/meter.svg'
+          alt='meter'
+          width={16}
+          height={158}
+          className='h-full w-auto'
+          />
           <div className='flexetween flex-col'>
             <div className='flex w-full flex-col'>
-              <div className='fleBetween w-full'>
-                <p>Destination</p>
-                <p>30 Min</p>
+              <div className='flexBetween w-full'>
+                <p className='regular-16 text-gray-20'>Destination</p>
+                <p className='bold-16 text-purple-50'>30 Min</p>
               </div>
+              <p className='bold-20 mt-2'>Mata Jitu Waterfall</p>
+            </div>
+            
+            <div className='flex w-full flex-col'>
+              <p className='regular-16 text-gray-20'>Destination</p>
+              <h4 className='bold-20 mt-2 whitespaces-nowrap'>Maryan Moyo Bungalows and resto
+              </h4>
             </div>
           </div>
         </div>
