@@ -4,8 +4,7 @@ import React from 'react'
 const Guide = () => {
   return (
     <section className='flexCenter flex-col'>
-      <div className='border-2 border-red-500 padding-container
-      max-container w-full pb-24'>
+      <div className='padding-container max-container w-full pb-24'>
         <Image
           src='/camp.svg' alt='map' width={50} height={50}
         />
@@ -39,7 +38,7 @@ const Guide = () => {
           height={158}
           className='h-full w-auto'
           />
-          <div className='flexetween flex-col'>
+          <div className='flexBetween flex-col'>
             <div className='flex w-full flex-col'>
               <div className='flexBetween w-full'>
                 <p className='regular-16 text-gray-20'>Destination</p>
@@ -49,8 +48,8 @@ const Guide = () => {
             </div>
             
             <div className='flex w-full flex-col'>
-              <p className='regular-16 text-gray-20'>Destination</p>
-              <h4 className='bold-20 mt-2 whitespaces-nowrap'>Maryan Moyo Bungalows and resto
+              <p className='regular-16 text-gray-20'>Start track</p>
+              <h4 className='bold-20 mt-2 whitespace-nowrap'>Maryan Moyo Bungalows
               </h4>
             </div>
           </div>
