@@ -18,7 +18,16 @@ const Features = () => {
         </div>
 
         <div className='z-20 flex flex-col w-full lg:w-[60%]'>
-
+          <div className='relative'>
+            <Image
+              className='absolute left-[0px] top-[-30px] w-10 lg:w-[50px]'
+              src='/camp.svg'
+              alt='camp'
+              width={50}
+              height={50}
+            />
+            <h2 className='bold-40 lg:bold-64'>Our Features</h2>
+          </div>
         </div>
       </div>
     </section>
