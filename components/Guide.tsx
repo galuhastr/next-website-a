@@ -4,9 +4,13 @@ import React from 'react'
 const Guide = () => {
   return (
     <section className='flexCenter flex-col'>
-      <div className='padding-container max-container w-full pb-24'>
+      <div className='padding-container max-container w-full pb-10'>
         <Image
-          src='/camp.svg' alt='map' width={50} height={50}
+          className='left-[0px] top-[-30px] w-10 lg:w-[50px]'
+          src='/camp.svg'
+          alt='map'
+          width={50}
+          height={50}
         />
         <div className='flex flex-wrap justify-between gap-5
         lg:gap-10'>
