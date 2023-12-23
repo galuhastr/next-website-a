@@ -4,7 +4,7 @@ import { FEATURES } from '@/constants'
 
 const Features = () => {
   return (
-    <section className='border border-red-500 flex-col flexCenter
+    <section className='flex-col flexCenter
     overflow-hidden bg-feature-bg bg-center no-repeat py-24'>
       <div className='max-container padding-container relative w-full
       flex justify-end'>
